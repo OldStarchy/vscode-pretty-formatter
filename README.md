@@ -1,14 +1,14 @@
-<a href="https://marketplace.visualstudio.com/items?itemName=mblode.pretty-formatter">
-  <img src="https://github.com/mblode/vscode-pretty-formatter/blob/master/icon.png?raw=true" alt="VS Code Pretty Format" width=100 height=100>
+<a href="https://marketplace.visualstudio.com/items?itemName=OldStarchy.pretty-formatter">
+  <img src="https://github.com/OldStarchy/vscode-pretty-formatter/blob/master/icon.png?raw=true" alt="VS Code Pretty Format" width=100 height=100>
 </a>
 
 # VS Code Pretty Formatter
 
 **VS Code extension to format your files using [Pretty Diff](https://prettydiff.com/)**
 
-[![Version](https://vsmarketplacebadge.apphb.com/version-short/mblode.pretty-formatter.svg)](https://marketplace.visualstudio.com/items?itemName=mblode.pretty-formatter)
-[![Installs](https://vsmarketplacebadge.apphb.com/installs-short/mblode.pretty-formatter.svg)](https://marketplace.visualstudio.com/items?itemName=mblode.pretty-formatter)
-[![Ratings](https://vsmarketplacebadge.apphb.com/rating-short/mblode.pretty-formatter.svg)](https://marketplace.visualstudio.com/items?itemName=mblode.pretty-formatter)
+## Differences from the original
+
+* Adds `"pretty-formatter.indentChar"` setting to allow for tabs instead of spaces which is now the default.
 
 ## Is Pretty Formatter for you?
 

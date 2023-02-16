@@ -1,20 +1,20 @@
 {
-    "name": "pretty-formatter",
-    "displayName": "Pretty Formatter",
+    "name": "petty-formatter",
+    "displayName": "Pretty Formatter 2",
     "description": "VS Code extension to format your code using Pretty Diff",
-    "version": "0.2.2",
-    "publisher": "mblode",
+    "version": "0.2.3",
+    "publisher": "OldStarchy",
     "license": "MIT",
     "engines": {
         "vscode": "^1.30.0"
     },
-    "homepage": "https://github.com/mblode/vscode-pretty-formatter",
+    "homepage": "https://github.com/OldStarchy/vscode-pretty-formatter",
     "bugs": {
         "url": "https://github.com/mblode/vscode-pretty-formatter/issues"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/mblode/vscode-pretty-formatter.git"
+        "url": "https://github.com/OldStarchy/vscode-pretty-formatter.git"
     },
     "icon": "icon.png",
     "galleryBanner": {
@@ -182,6 +182,11 @@
                     "type": "integer",
                     "default": 0,
                     "description": "The number of 'inchar' values to comprise a single indentation."
+                },
+                "pretty-formatter.indentChar": {
+                    "type": "string",
+                    "default": "\t",
+                    "description": "The string characters to comprise a single indentation. Any string combination is accepted."
                 },
                 "pretty-formatter.methodChain": {
                     "type": "integer",

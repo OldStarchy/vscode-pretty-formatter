@@ -88,6 +88,10 @@ const prettyDiff = (document: TextDocument, range: Range) => {
 
     let tabSize = editor.tabSize;
 
+    if (config.indentChar === '\t') {
+        tabSize = 1;
+    }
+
     if (config.indentSize > 0) {
         tabSize = config.indentSize;
     }
@@ -112,6 +116,7 @@ const prettyDiff = (document: TextDocument, range: Range) => {
     options.function_name = config.functionName;
     options.indent_level = config.indentLevel;
     options.indent_size = tabSize;
+    options.indent_char = config.indentChar;
     options.method_chain = config.methodChain;
     options.never_flatten = config.neverFlatten;
     options.new_line = config.newLine;
